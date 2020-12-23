@@ -1,0 +1,36 @@
+# Base16 oomox-0009 Ours Polaire - alacritty color config
+# oomox-0009 Ours Polaire
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xd9eff4'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x000000'
+    cursor: '0xd9eff4'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0x704b15'
+    green:   '0x704b15'
+    yellow:  '0xe1dbc1'
+    blue:    '0x5e606b'
+    magenta: '0xd9eff4'
+    cyan:    '0xd9eff4'
+    white:   '0xd9eff4'
+
+  # Bright colors
+  bright:
+    black:   '0x6c777a'
+    red:     '0xd3ceb9'
+    green:   '0x000000'
+    yellow:  '0x807e84'
+    blue:    '0x141414'
+    magenta: '0xd4e2e4'
+    cyan:    '0x8d7853'
+    white:   '0xd9eff4'
+
+draw_bold_text_with_bright_colors: false

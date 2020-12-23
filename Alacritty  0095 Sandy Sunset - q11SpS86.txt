@@ -1,0 +1,36 @@
+# Base16 oomox-0095 Sandy Sunset - alacritty color config
+# oomox-0095 Sandy Sunset
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xfcf590'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x000000'
+    cursor: '0xfcf590'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xff8406'
+    green:   '0x6f461a'
+    yellow:  '0xfdab07'
+    blue:    '0x6f461a'
+    magenta: '0xdb4b2c'
+    cyan:    '0xfcf590'
+    white:   '0xfcf590'
+
+  # Bright colors
+  bright:
+    black:   '0x7e7a48'
+    red:     '0xfdab07'
+    green:   '0x000000'
+    yellow:  '0x83776b'
+    blue:    '0x141414'
+    magenta: '0xfee791'
+    cyan:    '0xea8300'
+    white:   '0xfcf590'
+
+draw_bold_text_with_bright_colors: false

@@ -1,0 +1,36 @@
+# Base16 oomox-0067 Peaks and Plain - alacritty color config
+# oomox-0067 Peaks and Plain
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xffffff'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x000000'
+    cursor: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xf07e31'
+    green:   '0x374248'
+    yellow:  '0xf38f41'
+    blue:    '0x35414a'
+    magenta: '0xfff8ed'
+    cyan:    '0xfff8ed'
+    white:   '0xffffff'
+
+  # Bright colors
+  bright:
+    black:   '0x7f7f7f'
+    red:     '0xf17b29'
+    green:   '0x000000'
+    yellow:  '0x7f8080'
+    blue:    '0x141414'
+    magenta: '0xe6e7e4'
+    cyan:    '0xdc6819'
+    white:   '0xffffff'
+
+draw_bold_text_with_bright_colors: false
