@@ -1,0 +1,36 @@
+# Base16 oomox-0264 Misty Island Morning - alacritty color config
+# oomox-0264 Misty Island Morning
+colors:
+  # Default colors
+  primary:
+    background: '0x17271a'
+    foreground: '0xd7d7d7'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x17271a'
+    cursor: '0xd7d7d7'
+
+  # Normal colors
+  normal:
+    black:   '0x17271a'
+    red:     '0xecbe71'
+    green:   '0xe0bc1a'
+    yellow:  '0xe0bc1a'
+    blue:    '0x8cc1e3'
+    magenta: '0xd7e6f2'
+    cyan:    '0x84929e'
+    white:   '0xd7d7d7'
+
+  # Bright colors
+  bright:
+    black:   '0x777f78'
+    red:     '0xc39418'
+    green:   '0x17271a'
+    yellow:  '0x213436'
+    blue:    '0x2b3b2e'
+    magenta: '0xc0b1a8'
+    cyan:    '0xc39530'
+    white:   '0xd7d7d7'
+
+draw_bold_text_with_bright_colors: false

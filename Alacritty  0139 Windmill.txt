@@ -1,0 +1,36 @@
+# Base16 oomox-0139 Windmill - alacritty color config
+# oomox-0139 Windmill
+colors:
+  # Default colors
+  primary:
+    background: '0x1a1520'
+    foreground: '0xfee6d0'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1a1520'
+    cursor: '0xfee6d0'
+
+  # Normal colors
+  normal:
+    black:   '0x1a1520'
+    red:     '0xbf695f'
+    green:   '0xa0a0a0'
+    yellow:  '0xa0a0a0'
+    blue:    '0x647673'
+    magenta: '0x896c8a'
+    cyan:    '0xb194b2'
+    white:   '0xfee6d0'
+
+  # Bright colors
+  bright:
+    black:   '0x8c7d78'
+    red:     '0x7c7d7e'
+    green:   '0x333638'
+    yellow:  '0x423d48'
+    blue:    '0x06010c'
+    magenta: '0xa0a0a0'
+    cyan:    '0x895e5a'
+    white:   '0xc5acc0'
+
+draw_bold_text_with_bright_colors: false

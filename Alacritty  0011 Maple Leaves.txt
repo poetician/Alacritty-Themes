@@ -1,0 +1,36 @@
+# Base16 oomox-0011 Maple Leaves_1010 - alacritty color config
+# oomox-0011 Maple Leaves_1010
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xffffff'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x000000'
+    cursor: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x000000'
+    red:     '0xcc1703'
+    green:   '0x7c5007'
+    yellow:  '0xfeb60f'
+    blue:    '0xa16047'
+    magenta: '0xfe403d'
+    cyan:    '0xf7c294'
+    white:   '0xffffff'
+
+  # Bright colors
+  bright:
+    black:   '0x7f7f7f'
+    red:     '0xda9602'
+    green:   '0x000000'
+    yellow:  '0x827e7c'
+    blue:    '0x141414'
+    magenta: '0xeae6e7'
+    cyan:    '0xbf4200'
+    white:   '0xffffff'
+
+draw_bold_text_with_bright_colors: false

@@ -1,0 +1,36 @@
+# Base16 oomox-0050 Round Suru - alacritty color config
+# oomox-0050 Round Suru
+colors:
+  # Default colors
+  primary:
+    background: '0x20252d'
+    foreground: '0xa2a9ba'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x20252d'
+    cursor: '0xa2a9ba'
+
+  # Normal colors
+  normal:
+    black:   '0x20252d'
+    red:     '0xd69c87'
+    green:   '0x7fb4ae'
+    yellow:  '0xcc9763'
+    blue:    '0x9ca9d0'
+    magenta: '0xcda2c5'
+    cyan:    '0x8caeb8'
+    white:   '0xa2a9ba'
+
+  # Bright colors
+  bright:
+    black:   '0x616773'
+    red:     '0xa96e58'
+    green:   '0x20252d'
+    yellow:  '0x2c2f50'
+    blue:    '0x343941'
+    magenta: '0xa19894'
+    cyan:    '0xab715b'
+    white:   '0xa2a9ba'
+
+draw_bold_text_with_bright_colors: false
